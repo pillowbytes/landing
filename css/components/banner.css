@@ -5,7 +5,7 @@
   height: 370px;
   background-color: #FBFBFB;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* .banner-content {
