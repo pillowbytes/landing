@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+  background-color: #FBFBFB;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .banner-content {
+  position: relative;
+} */
+
+#monstera {
+  width: 500px;
+  opacity: 0.5;
+  transform: translateY(50px) scale(1);
+  animation: monstera-grow 3.5s ease-out forwards;
+}
+
+@keyframes monstera-grow {
+  0% {
+    opacity: 0;
+    transform: translateY(200px) scale(1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

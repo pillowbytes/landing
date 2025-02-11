@@ -1,0 +1,39 @@
+.footer {
+  font-style: italic;
+  font-weight: lighter;
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+  background: #f5f5f5;
+  font-size: 14px;
+  color: #333;
+}
+
+.monstera-background-right,
+.monstera-background-left {
+  position: fixed;
+  bottom: -10px;
+  width: 250px;
+  height: auto;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.monstera-background-right {
+  right: -100px;
+}
+
+.monstera-background-left {
+  left: -100px;
+  transform: scaleX(-1);
+}
+
+.monstera-overlay {
+  position: fixed;
+  bottom: 0;
+  right: -50px;
+  width: 400px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.568);
+  z-index: -2;
+}
